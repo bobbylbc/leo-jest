@@ -1,5 +1,14 @@
 <template>
   <div class="hello">
+    <v-row>
+      <v-col>
+        <leo-animated-illustration
+          type="homepage-intro"
+          maxWidth="400px"
+          maxHeight="400px"
+        />
+      </v-col>
+    </v-row>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />

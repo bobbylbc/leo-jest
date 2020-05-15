@@ -1,16 +1,19 @@
 {
-  "name": "leo-jest",
+  "name": "leo-pattern-jest",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "jest"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "leo-pattern-library-vue": "git+https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue.git",
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.28"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -20,10 +23,15 @@
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/test-utils": "1.0.0-beta.31",
     "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "jest": "^26.0.1",
     "prettier": "^1.19.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }
 }
