@@ -1,14 +1,5 @@
 <template>
   <div class="hello">
-    <v-row>
-      <v-col>
-        <leo-animated-illustration
-          type="homepage-intro"
-          maxWidth="400px"
-          maxHeight="400px"
-        />
-      </v-col>
-    </v-row>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -29,6 +20,22 @@
       </li>
       <li>
         <a
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
+          target="_blank"
+          rel="noopener"
+          >router</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex"
+          target="_blank"
+          rel="noopener"
+          >vuex</a
+        >
+      </li>
+      <li>
+        <a
           href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
           target="_blank"
           rel="noopener"
@@ -41,6 +48,14 @@
           target="_blank"
           rel="noopener"
           >unit-jest</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress"
+          target="_blank"
+          rel="noopener"
+          >e2e-cypress</a
         >
       </li>
     </ul>
@@ -113,7 +128,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
 }

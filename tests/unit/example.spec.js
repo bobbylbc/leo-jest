@@ -1,13 +1,6 @@
 import { shallowMount } from "@vue/test-utils";
 import HelloWorld from "@/components/HelloWorld.vue";
-import Vue from "vue";
-import Vuetify from "vuetify";
-import LeoPatternLibraryVue from "leo-pattern-library-vue";
-
-Vue.config.productionTip = false;
-
-Vue.use(Vuetify);
-Vue.use(LeoPatternLibraryVue);
+import setupJest from '../setup-jest'
 
 describe("HelloWorld.vue", () => {
   it("renders props.msg when passed", () => {
