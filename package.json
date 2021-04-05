@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "leo-pattern-library-vue": "git+https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue.git",
+    "leo-pattern-library-vue": "https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue#v0.37.6",
     "vue": "^2.6.11",
     "vuetify": "^2.2.28"
   },

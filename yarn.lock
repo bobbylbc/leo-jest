@@ -6894,9 +6894,9 @@ left-pad@^1.3.0:
   resolved "https://registry.npm.taobao.org/left-pad/download/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
   integrity sha1-W4o6d2Xf4AEmHd6RVYnngvjJTR4=
 
-"leo-pattern-library-vue@git+https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue.git":
-  version "0.5.0"
-  resolved "git+https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue.git#7fc1d403b4ab0336862e4b6bc1c11722dbd7e06e"
+"leo-pattern-library-vue@https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue#v0.37.6":
+  version "0.37.6"
+  resolved "https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue#2e957feb4a45467e9e90bdf49a9e486dfea393b9"
 
 leven@^3.1.0:
   version "3.1.0"
