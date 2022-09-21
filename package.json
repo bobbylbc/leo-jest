@@ -13,7 +13,7 @@
     "core-js": "^3.6.4",
     "leo-pattern-library-vue": "git+https://gitlab+deploy-token-LPL-Vue:a89sYzFoPqXX661qK8b1@gitlab.com/greateastern/leo-pattern-library-vue.git",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.28"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
